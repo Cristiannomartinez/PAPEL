@@ -1,0 +1,7 @@
+{
+  "name": "ConsultWorker - Sistema de Consulta ao Trabalhador",
+  "description": "Uma plataforma profissional para realizar consultas formais com trabalhadores, coletar feedbacks detalhados e assinaturas digitais verificáveis para conformidade legal e organizacional.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
