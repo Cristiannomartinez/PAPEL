@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 📄 ConsultWorker - Digital Document & Signature System
 
-# Run and deploy your AI Studio app
+O **ConsultWorker** é uma plataforma open-source de alta fidelidade projetada para empresas que precisam realizar consultas formais com seus colaboradores, garantindo validade jurídica interna através de assinaturas digitais e geração de documentos em formato padrão A4 (ISO 216).
 
-This contains everything you need to run your app locally.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1_UBzLM-_BUhlan4wtHK5e0BONLYXgN8h
+## 🌟 Principais Funcionalidades
 
-## Run Locally
+- **Assinatura Digital Nativa**: Campo de assinatura responsivo baseado em HTML5 Canvas.
+- **Visualização de Folha A4**: Interface que emula perfeitamente uma folha A4 (210mm x 297mm) com sombras e margens.
+- **Otimização para Impressão**: Estilos CSS `@media print` que removem elementos de interface e preservam apenas o documento oficial.
+- **Painel Administrativo**: Gestão centralizada de todas as respostas coletadas.
+- **Conformidade em PDF**: Permite salvar como PDF através do diálogo de impressão nativo do navegador.
 
-**Prerequisites:**  Node.js
+## 🚀 Como Publicar
 
+### No Vercel / Netlify
+Como este projeto utiliza módulos ES6 nativos e Tailwind CSS via CDN, o deploy é instantâneo:
+1. Conecte seu repositório GitHub.
+2. Defina o diretório raiz como build folder (ou simplesmente deixe o padrão).
+3. Publique!
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### No GitHub Pages
+Certifique-se de configurar o roteamento para lidar com SPAs se adicionar rotas complexas.
+
+## 🛠️ Tecnologias
+- **React 19**
+- **Tailwind CSS** (UI Moderna)
+- **Lucide Icons** (Ícones Profissionais)
+- **LocalStorage API** (Persistência sem banco de dados)
+
+## 📝 Licença
+Este projeto está sob a licença MIT. Sinta-se à vontade para clonar e adaptar para sua organização.

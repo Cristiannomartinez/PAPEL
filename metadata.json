@@ -1,7 +1,15 @@
 {
-  "name": "ConsultWorker - Sistema de Consulta ao Trabalhador",
-  "description": "Uma plataforma profissional para realizar consultas formais com trabalhadores, coletar feedbacks detalhados e assinaturas digitais verificáveis para conformidade legal e organizacional.",
+  "name": "ConsultWorker Pro - A4 Signer",
+  "short_name": "ConsultWorker",
+  "description": "Sistema profissional de consulta ao trabalhador com geração de documentos A4 e assinatura digital verificável.",
   "requestFramePermissions": [
     "camera"
-  ]
+  ],
+  "categories": [
+    "productivity",
+    "business",
+    "utilities"
+  ],
+  "theme_color": "#2563eb",
+  "background_color": "#f8fafc"
 }
